@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "course exercises",
+  "main": "index.js",
+  "homepage": "https://Motimoukari.github.io/front-end-course",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "node-sass": "^9.0.0"
+  }
+}
